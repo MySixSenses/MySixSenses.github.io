@@ -1,0 +1,8 @@
+body {background: #ffffff; margin: 0; padding: 0;} 
+a {color: #2b2bf6;}
+#name {color: #0aaca0; font-size: 40px}            
+#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}           
+#header {width: 900px; 	height: 50px; 	margin: 0; padding: 0; border: 0; color: #0aaca0; text-decoration: none; font-size: 20px; background: #ffffff; font-family: ScalaSansWeb, sans-serif; text-align: right}           
+#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
+#content {width: 700px; height: 20px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
+#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}   
