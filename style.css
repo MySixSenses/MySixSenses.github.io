@@ -8,7 +8,8 @@
   }
   .topnav {
     overflow: hidden;
-    background-color: #1abc9c;
+    background-color: #000000;
+    color: #f2f2f2;
     border-bottom:1px solid black;
   }
   
