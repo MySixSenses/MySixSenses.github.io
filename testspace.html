@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hamburger Menu - HTML, CSS, & JS</title>
+
+    <style>
+    @media (max-width: 768px){
+	.mainMenu{
+		display: none;
+	}
+	.mainMenu.hamburger{
+		display: block;
+	}
+}
+
+@media (min-width: 769px){
+	.mainMenu{
+		display: initial;
+	}
+
+	#toggle-bar{
+		display: none;
+	}
+
+}
+    
+    </style>
+</head>
+
+<body>
+
+        <header>
+                <h1>Logo..</h1>
+              </header>
+              
+              <nav>
+                <div class="tootle-menu" >
+                  <h1 id="toggle-bar">
+                    ☰
+                  </h1>
+                </div>
+                <ul class="mainMenu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="test.html">Test</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                </ul>
+              </nav>	
+
+    
+
+    <script>
+    function toggleMenu() {
+        let getMenu = document.querySelector(".mainMenu");
+        getMenu.classList.toggle("hamburger");
+        }
+
+        let getHamburger = document.querySelector("#toggle-bar");
+
+        getHamburger.addEventListener("click", toggleMenu);    
+    </script>
+    
+</body>
+</html>
