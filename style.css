@@ -5,3 +5,25 @@
     color: white;
     font-size: 30px;
   }
+  @media (max-width: 768px){
+	.mainMenu{
+		display: none;
+	}
+
+	.mainMenu.hamburger{
+		display: block;
+	}
+
+}
+
+
+@media (min-width: 769px){
+	.mainMenu{
+		display: initial;
+	}
+
+	#toggle-bar{
+		display: none;
+	}
+
+}
