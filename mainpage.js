@@ -42,3 +42,6 @@ var allowedKeys = {
     level ++
     alert("Level up! You're now level " + level)
   }
+function reset(){
+    level = 0;
+}
