@@ -7,16 +7,15 @@ var allowedKeys = {
     40: 'down',
     65: 'a',
     66: 'b'
-  };
-  
+};
   // the 'official' Konami Code sequence
-  var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
   
   // a variable to remember the 'position' the user has reached so far.
-  var konamiCodePosition = 0;
+var konamiCodePosition = 0;
   
   // add keydown event listener
-  document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function(e) {
     // get the value of the key code from the key map
     var key = allowedKeys[e.keyCode||e.key];
     // get the value of the required key from the konami code
