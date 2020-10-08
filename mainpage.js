@@ -40,5 +40,5 @@ var allowedKeys = {
   
   function activateCheats() {
     level ++
-    alert("Level up! You're now level " + level.toString())
+    alert("Level up! You're now level " + level)
   }
