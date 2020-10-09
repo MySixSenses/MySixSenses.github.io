@@ -5,14 +5,13 @@
   color: white;
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+}
 .topnav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #000;
   color: #f2f2f2;
-  border-bottom:1px solid black;
-  }
-  
+  border-bottom: 1px solid black;
+}
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -32,6 +31,7 @@
   background-color: #4caf50;
   color: white;
   }
+
 .content {
   padding: 60px;
   text-align: center;
@@ -40,8 +40,8 @@
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-.content paragraph{
+.content paragraph {
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
-  }
+}
