@@ -1,5 +1,6 @@
 // a key map of allowed keys
 var level = 0;
+var audio = new Audio('./sounds/jingle.wav');
 var allowedKeys = {
     37: 'left',
     38: 'up',
@@ -40,6 +41,8 @@ document.addEventListener('keydown', function(e) {
   function activateCheats() {
     level ++
     alert("Level up! You're now level " + level)
+    audio.play()
+    alert("Coin jingle licensed to me under a CC-BY 3.0 License. OP: https://freesound.org/people/ProjectsU012/sounds/341695/")
   }
 function reset(){
     level = 0;
