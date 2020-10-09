@@ -29,13 +29,13 @@
   }
   
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
   }
 .content {
     padding: 60px;
     text-align: center;
-    background: #4CAF50;
+    background: #4caf50;
     color: white;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
